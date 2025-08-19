@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DeciderView: View {
     @State private var selectedCategory: Category?
     @State private var options: [Option] = []
     @State private var isDeciding = false
@@ -328,5 +328,5 @@ struct OptionCard: View {
 }
 
 #Preview {
-    ContentView()
+    DeciderView()
 }

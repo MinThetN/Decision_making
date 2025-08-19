@@ -11,7 +11,7 @@ import SwiftUI
 struct DeciderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePage()
         }
     }
 }
